@@ -1,0 +1,14 @@
+{
+  "name": "week-03-data-structures",
+  "version": "1.0.0",
+  "description": "Week 3: Arrays, Objects, and Data Structures",
+  "type": "module",
+  "scripts": {
+    "day1": "node day-1-arrays/starter/script.js",
+    "day2": "node day-2-objects/starter/script.js",
+    "day3": "node day-3-array-methods/starter/script.js",
+    "day4": "node day-4-contact-book/starter/script.js"
+  },
+  "keywords": ["javascript", "learning", "cloudflare"],
+  "license": "UNLICENSED"
+}

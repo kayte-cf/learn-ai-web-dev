@@ -1,0 +1,14 @@
+{
+  "name": "week-04-async-apis",
+  "version": "1.0.0",
+  "description": "Week 4: Async Programming and APIs",
+  "type": "module",
+  "scripts": {
+    "day1": "node day-1-callbacks-promises/starter/script.js",
+    "day2": "node day-2-async-await/starter/script.js",
+    "day3": "node day-3-fetch/starter/script.js",
+    "day4": "node day-4-dad-joke-cli/starter/joke.js"
+  },
+  "keywords": ["javascript", "learning", "cloudflare", "async", "api"],
+  "license": "UNLICENSED"
+}

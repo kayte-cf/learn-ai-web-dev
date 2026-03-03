@@ -1,0 +1,14 @@
+{
+  "name": "week-02-js-basics",
+  "version": "1.0.0",
+  "description": "Week 2: JavaScript Fundamentals",
+  "type": "module",
+  "scripts": {
+    "day1": "node day-1-variables/starter/script.js",
+    "day2": "node day-2-operators/starter/script.js",
+    "day3": "node day-3-conditionals/starter/script.js",
+    "day4": "node day-4-functions/starter/script.js"
+  },
+  "keywords": ["javascript", "learning", "cloudflare"],
+  "license": "UNLICENSED"
+}
