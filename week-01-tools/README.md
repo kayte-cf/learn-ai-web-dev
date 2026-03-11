@@ -6,24 +6,45 @@
 
 This week you'll set up and learn the fundamental tools every developer uses:
 
-| Day | Topic | What You'll Learn |
-|-----|-------|-------------------|
+| Lesson | Topic | What You'll Learn |
+|--------|-------|-------------------|
 | 1 | Terminal | Navigate files, create directories, run commands |
-| 2 | Windsurf + OpenCode | Your AI-powered code editor |
-| 3 | Git Basics | Track changes locally |
-| 4 | Git Workflow | Clone, commit, push to GitHub |
+| 2 | Git & GitHub | Version control, GitHub profile, fork this repo |
+| 3 | Hello JavaScript | Run your first code, understand execution flow |
 
-## Week Capstone
+## Week 1 Goals
 
 By end of Week 1, you will have:
 - [ ] Terminal commands as muscle memory
-- [ ] Windsurf configured and comfortable
-- [ ] Local git repo with meaningful commits
-- [ ] Course repo cloned and your changes pushed
+- [ ] GitHub account with a profile README
+- [ ] This course repo forked to your account
+- [ ] Your first JavaScript files running
 
 ## Prerequisites
 
-Complete [SETUP.md](../SETUP.md) before starting.
+Before starting, make sure you have:
+- A computer (Mac, Windows, or Linux)
+- Node.js installed ([download here](https://nodejs.org/))
+- A code editor (we recommend [VS Code](https://code.visualstudio.com/) or [Windsurf](https://windsurf.dev/))
+
+## Lesson Structure
+
+Each lesson is designed for ~60 minutes:
+
+```
+INTRO (15 min)
+  - Concepts explained
+  - Demo from instructor
+
+BUILD (30 min)
+  - Hands-on exercises
+  - Practice with guidance
+
+REVIEW (15 min)
+  - What did you learn?
+  - Quiz
+  - Preview next lesson
+```
 
 ## Commands You'll Learn
 
@@ -35,50 +56,30 @@ pwd     # Print working directory
 mkdir   # Make directory
 touch   # Create file
 rm      # Remove file
-cat     # Display file contents
-open    # Open file/folder (Mac)
-clear   # Clear terminal
 ```
 
 ### Git
 ```bash
-git init     # Initialize repository
+git clone    # Copy a repo
 git status   # Check what's changed
 git add      # Stage changes
-git commit   # Save changes
-git log      # View history
-git clone    # Copy remote repo
+git commit   # Save changes with a message
 git push     # Upload to GitHub
 ```
 
-## Daily Structure
-
-Each day follows this 60-minute format:
-
-```
-0:00 - 0:15  INTRO
-             - Review yesterday (except Day 1)
-             - Today's concepts explained
-             - Demo from instructor
-
-0:15 - 0:45  BUILD
-             - Hands-on practice
-             - Work through exercises
-             - Ask questions!
-
-0:45 - 1:00  REVIEW
-             - What did you learn?
-             - Quick quiz
-             - Preview tomorrow
+### Node.js
+```bash
+node file.js    # Run a JavaScript file
+node --version  # Check Node version
 ```
 
 ## Tips for This Week
 
-1. **Type everything yourself** - Don't copy-paste commands. Muscle memory matters.
-2. **Make mistakes** - That's how you learn. `rm` the wrong file? Great learning moment.
-3. **Ask "why"** - Don't just run commands. Understand what they do.
-4. **Use tab completion** - Press Tab to autocomplete file names. Life-changing.
+1. **Type everything yourself** - Don't copy-paste. Muscle memory matters.
+2. **Make mistakes** - Errors teach you more than success.
+3. **Ask "why"** - Don't just run commands. Understand them.
+4. **Commit often** - Get comfortable with the git workflow early.
 
 ## Ready?
 
-Start with [Day 1: Terminal](./day-1-terminal/README.md)
+Start with [Lesson 1: Terminal](./lesson-1-terminal/README.md)
